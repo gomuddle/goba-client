@@ -1,4 +1,4 @@
-module github.com/gomuddle/goba-client
+module github.com/gomuddle/gobaclient
 
 go 1.17
 

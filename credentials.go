@@ -1,4 +1,4 @@
-package goba_client
+package gobaclient
 
 // Credentials represent the client's credentials.
 type Credentials struct {

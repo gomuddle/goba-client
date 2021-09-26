@@ -1,4 +1,4 @@
-package goba_client
+package gobaclient
 
 import (
 	"encoding/json"

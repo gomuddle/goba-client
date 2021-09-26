@@ -1,8 +1,8 @@
-package goba_client
+package gobaclient
 
 import (
 	"encoding/base64"
-	"github.com/gomuddle/goba-client/internal/client"
+	"github.com/gomuddle/gobaclient/internal/client"
 )
 
 // authHeader returns a client.HeaderFunc returning

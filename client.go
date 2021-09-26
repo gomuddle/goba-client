@@ -1,9 +1,9 @@
-package goba_client
+package gobaclient
 
 import (
 	"fmt"
 	"github.com/gomuddle/goba"
-	"github.com/gomuddle/goba-client/internal/client"
+	"github.com/gomuddle/gobaclient/internal/client"
 	"net/url"
 	"strings"
 )
