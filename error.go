@@ -28,6 +28,10 @@ func (resp *ErrorResponse) UnmarshalJSON(data []byte) error {
 
 // checkResponse verifies the server's response.
 func checkResponse(resp http.Response) error {
+	if resp.StatusCode == http.StatusOK {
+		return nil
+	}
+
 	var response ErrorResponse
 	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		return err
